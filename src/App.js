@@ -57,13 +57,17 @@ class App extends Component {
         });
 
         return (
-            <div className = "Main">
-                <h1>Simple Tic Tac Toe Game</h1>
-                <div className = "Board">
-                    {pieces}
-                </div> 
-                <h2>Made By Avas Bajracharya</h2>
-            </div> 
+            <div className = "main">
+                <div className="main-title">TIC-TAC-REACT </div>
+                <div className="two-players">Play with your friends only!</div>
+                <div className="main-board">
+                    <div className = "board-game">
+                        {pieces}
+                    </div>
+                </div>
+                <div id="play-again">Someone cheated ! Let's play this again.</div>
+                <div className="footer"> made with &hearts; by Robina for Avas </div>
+            </div>
         );
     }
 }

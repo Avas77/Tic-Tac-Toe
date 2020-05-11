@@ -1,36 +1,59 @@
-.Main{
+.main-title{
+    background: white;
     text-align: center;
-    margin-top: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size:60px;
+    font-family: 'Abel', sans-serif;
+    font-weight:bolder;
 }
-
-h1{
-    margin-right: 80px;
-    color: brown;
+.two-players{
+    font-family: 'Abel', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight:bold;
 }
+.main-board{
+    background: black;
+    padding-top: 80px;
+    padding-left:800px;
 
-.Board{
+}
+.board-game{
     display: inline-flex;
     flex-wrap: wrap;
     width: 320px;
-    padding-top: 2rem;
+    color: black;
 }
 
 .box{
     width: 80px;
     height:80px;
     display: inline-block;
-    border: 1px solid gold; 
+    border: 5px solid white;
     line-height: 80px;
-    color:whitesmoke;
     font-weight: bolder;
     font-size: xx-large;
+    color:white;
+
+}
+#play-again{
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 150px;
+}
+.footer{
+    color:black;
+    background:white;
+    padding-top: 20px;
+    padding-bottom:20px;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    font-size: 30px;
 }
 
-h2{
-    font-size: xx-large;
-    font-style: italic;
-    font-weight: bolder;
-    color: gold;
-    padding: 2rem;
-    margin-right: 80px;
-}
